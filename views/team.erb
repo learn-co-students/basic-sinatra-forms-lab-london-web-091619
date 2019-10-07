@@ -5,10 +5,14 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
-
-
+   <h1>Team Name: <%= @team[:name] %></h1>
+   <ul>
+     <li>Coach: <%= @team[:coach] %></li>
+     <li>Point Guard: <%= @team[:pg] %></li>
+     <li>Shooting Guard: <%= @team[:sg] %></li>
+     <li>Small Forward: <%= @team[:sf] %></li>
+     <li>Power Forward: <%= @team[:pf] %></li>
+     <li>Center: <%= @team[:c] %></li>
+   </ul>
  </body>
 </html>
-
-
